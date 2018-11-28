@@ -18,10 +18,6 @@ class Canvas implements IDisplay {
    public update() {
 
    }
-
-   private reSize() {
-
-   }
 }
 
 export default Canvas;

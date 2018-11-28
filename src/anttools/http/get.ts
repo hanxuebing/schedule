@@ -1,10 +1,4 @@
-import * as React from 'react';
-import './App.css';
-
-// import logo from './logo.svg';
-import Canvas from './antcomponents/components/Canvas';
-
-class App extends React.Component {
+class HttpService {
    public trigger() {
       let formData = new FormData();
       formData.append("username", "hello");
@@ -22,11 +16,4 @@ class App extends React.Component {
          console.log(e);
       });
    }
-   public render() {
-      return (
-         <Canvas left={100} top={100} height={100} width={100} />
-      );
-   }
 }
-
-export default App;
